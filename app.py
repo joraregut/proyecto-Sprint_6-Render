@@ -78,3 +78,13 @@ if Checkbox_build_bar:  # Selección de casilla
 
     # Muestra de gráfico interactivo
     st.plotly_chart(bar_type, use_container_width=True)
+
+
+# Creación de subencabezado
+st.subheader(
+    '',
+    divider="red")
+# Creación de subencabezado
+st.subheader(
+    'Elaborado por Jorge Arévalo',
+    divider="red")
